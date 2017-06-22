@@ -1,3 +1,6 @@
+require 'fog/aws'
+require 'carrierwave'
+  
 #ActionController::Base.asset_host = Proc.new { |source|
 #  if source.ends_with?('.css')
 #    "https://photo-app-asatchwill.herokuapp.com"

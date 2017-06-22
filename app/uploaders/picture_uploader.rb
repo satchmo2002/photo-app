@@ -1,4 +1,6 @@
 class PictureUploader < CarrierWave::Uploader::Base
+  require 'fog/aws'
+  require 'carrierwave'
   include CarrierWave::MiniMagick
   process resize_to_limit: [300, 300]
 
