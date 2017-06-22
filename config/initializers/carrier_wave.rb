@@ -1,5 +1,5 @@
-require 'fog/aws'
-require 'carrierwave'
+#require 'fog/aws'
+#require 'carrierwave'
   
 #ActionController::Base.asset_host = Proc.new { |source|
 #  if source.ends_with?('.css')
